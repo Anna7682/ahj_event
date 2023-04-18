@@ -1,4 +1,3 @@
-# Webpack5
-https:/757-art.github.io/ahj_events/
+[![Build status](https://ci.appveyor.com/api/projects/status/5shp70w0h2aw3awr/branch/main?svg=true)](https://ci.appveyor.com/project/Anna7682/ahj-event/branch/main)
 
-![CI](https://github.com/Anna7682/ahj-event/actions/workflows/web.yml/badge.svg)
+https://Anna7682.github.io/ahj_event/
