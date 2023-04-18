@@ -1,13 +1,9 @@
-import Goblin from './goblin';
-import Field from './field';
-import Game from './game';
+import Board from './Board';
+import GameFlow from './GameFlow';
+import Modal from './Modal';
+import SidePanel from './SidePanel';
 
-const root = document.getElementById('wrapper');
-
-const game = new Game(root);
-const field = new Field(root);
-
-field.drawField();
-
-const goblin = new Goblin(field.cells);
-game.initGame(goblin.initGoblin.bind(goblin));
+const gameBoard = new Board();
+const sidePanel = new SidePanel();
+const gameFlow = new GameFlow();
+Modal.createModal();
