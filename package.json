@@ -1,24 +1,12 @@
 {
-  "name": "ahj-event",
+  "name": "event",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "start": "webpack serve --config webpack.dev.js",
-    "build": "webpack --mode production",
-    "lint": "eslint . --fix",
-    "test": "jest",
-  },
-
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Anna7682/ahj_event.git"
-  },
+  "repository": "",
   "author": "Anna",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Anna7682/ahj_event/issues"
-  },
-  "homepage": "https://github.com/Anna7682/ahj_event#readme",
+  "license": "MIT",
+  "devDependencies": {
     "@babel/cli": "^7.17.10",
     "@babel/core": "^7.18.5",
     "@babel/preset-env": "^7.18.2",
@@ -39,3 +27,10 @@
   "dependencies": {
     "core-js": "3"
   },
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint . --fix",
+    "test": "jest"
+  }
+}
